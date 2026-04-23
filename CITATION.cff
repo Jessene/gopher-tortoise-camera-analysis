@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both the software and the paper."
+type: software
+title: "Statistical Analysis Code: Gopher Tortoise Burrow Associates Camera Trap Study"
+authors:
+  - given-names: "Jessene"
+    family-names: "Aquino-Thomas"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Add your ORCID if you have one
+version: "1.0"
+date-released: "2026-04-23"
+url: "https://github.com/yourusername/gopher-tortoise-analysis"  # Update with actual repo URL
+preferred-citation:
+  type: article
+  authors:
+    - given-names: "Jessica"
+      family-names: "Huffman"
+    - given-names: "Jessene"
+      family-names: "Aquino-Thomas"
+    - given-names: "Laura"
+      family-names: "De Souza"
+    - given-names: "Jennifer"
+      family-names: "Unger"
+    - given-names: "Evelyn"
+      family-names: "Frazier"
+  title: "Vertebrate fauna associated with Gopher Tortoise burrows in southeastern Florida"
+  journal: "Southeastern Naturalist"
+  volume: 24
+  issue: 2
+  start: 200
+  end: 222
+  year: 2025
+  doi: "10.1656/058.024.0212"
