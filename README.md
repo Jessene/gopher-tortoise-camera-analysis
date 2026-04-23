@@ -29,7 +29,7 @@ This study used motion-triggered cameras to document vertebrate species using Go
 - **Species accumulation curves** indicated adequate sampling effort
 - **Beta diversity analysis** revealed turnover vs. nestedness patterns between sites
 
-![Vertebrate species overlap across four southeast Florida study sites, including Gopher Tortoise observations](figures/venn_diagram.png)
+[Vertebrate species overlap across four southeast Florida study sites, including Gopher Tortoise observations](figures/venn_diagram.png)
 *Venn diagram of vertebrate species recorded at Gopher Tortoise burrows across four study locations (JS, FS, PF, MG). Unlike Figure 3 in Huffman et al. 2025, this version includes Gopher Tortoise observations in the species counts. Produced in R.*
 
 ## Statistical Analyses
