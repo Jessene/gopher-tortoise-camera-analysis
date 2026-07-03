@@ -1,4 +1,5 @@
 # Gopher Tortoise Burrow Associates: Camera Trap Study Analysis
+This repository contains the statistical analysis and R code I contributed to Huffman et al. 2025.
 
 ## Paper Information
 
@@ -14,7 +15,7 @@ Huffman, J., J. Aquino-Thomas, L. De Souza, J. Unger, and E. Frazier. 2025. Vert
 
 ## Study Overview
 
-This study used motion-triggered cameras to document vertebrate species using Gopher Tortoise (*Gopherus polyphemus*) burrows across southeastern Florida. Camera traps were deployed at active adult burrows for 18 months across 4 study locations representing 3 land-use cover types at 3 sites:
+This study used motion-triggered cameras to document vertebrate species using Gopher Tortoise (*Gopherus polyphemus*) burrows across southeastern Florida. Camera traps were deployed at active adult burrows for 18 months across 4 sampling units representing 3 habitat types at 3 sites (Florida Atlantic University Preserve, Jonathan Dickinson State Park, and Pine Jog Preserve):
 
 - **FAU/Grass** - Florida Atlantic University Preserve (5 cameras)
 - **FAU/Scrub** - Florida Atlantic University Preserve (5 cameras)  
@@ -30,7 +31,7 @@ This study used motion-triggered cameras to document vertebrate species using Go
 - **Beta diversity analysis** revealed turnover vs. nestedness patterns between sites
 
 ![Vertebrate species overlap across four southeast Florida study sites, including Gopher Tortoise observations](venn_diagram.png)
-*Venn diagram of vertebrate species recorded at Gopher Tortoise burrows across four study locations (JS, FS, PF, MG). Unlike Figure 3 in Huffman et al. 2025, this version includes Gopher Tortoise observations in the species counts. Produced in R.*
+*Venn diagram of vertebrate species recorded at Gopher Tortoise burrows across four study locations (FAU Grass, Jonathan Dickinson, Pine Jog, and FAU Scrub). Unlike Figure 3 in Huffman et al. 2025, this version includes Gopher Tortoise observations in the species counts. Produced in R.*
 
 ## Statistical Analyses
 
@@ -52,7 +53,8 @@ This study used motion-triggered cameras to document vertebrate species using Go
 
 4. **Beta Diversity Decomposition**
    - Total β-diversity using Sørensen dissimilarity (via adespatial package)
-   - Partitioning into **turnover/replacement** and **nestedness/richness** components
+   - Partitioning into **turnover/replacement** and **nestedness/richness** 
+   components
    - Local Contribution to Beta Diversity (**LCBD**) for each site
    - Species Contribution to Beta Diversity (**SCBD**)
 
@@ -61,14 +63,17 @@ This study used motion-triggered cameras to document vertebrate species using Go
    - Key packages: `vegan`, `BiodiversityR`, `adespatial`, `VennDiagram`, `tidyverse`
 
 ### Generated Figures
-- **Figure 3:** Venn diagram of species overlap between study locations
-- **Figure 4:** Species accumulation curves for each study location
-- **Figure 5:** β-diversity partitioning plot showing turnover and nestedness components
+The Venn diagram of species overlap (venn_diagram.png) is included in this repository, reproduced with Gopher Tortoise observations added to the species counts.
+
+The species accumulation curves and the β-diversity partitioning were also produced in this code. Those figures are published in Huffman et al. 2025 and are not reproduced here; please see the paper for the published versions.
 
 ## Repository Contents
 
 - `camera_study_clean_v2.R` - Main analysis script (cleaned and organized)
 - `README.md` - This file
+- `venn_diagram.png` - Species overlap figure
+- `CITATION.cff` - Citation metadata
+- `LICENSE` - MIT License
 
 ## Software Requirements
 
@@ -101,22 +106,6 @@ The published paper is **not open access**. To obtain a copy:
 2. **Institutional Access:** Check if your institution has access to *Southeastern Naturalist*
 3. **Journal Website:** [Southeastern Naturalist](https://www.bioone.org/loi/sena)
 
-## Study Locations
-
-### Florida Atlantic University Preserve (FAUP)
-- **Coordinates:** 26°37'12"N, 80°10'17"W
-- **Habitat Types:** Xeric oak scrub and mowed grassy areas
-- **Cameras:** 10 total (5 scrub, 5 mowed grass)
-
-### Jonathan Dickinson State Park (JDSP)  
-- **Coordinates:** 27°0'0"N, 80°6'24"W
-- **Habitat Type:** Scrub
-- **Cameras:** 9
-
-### Pine Jog Preserve (PJP)
-- **Coordinates:** 26°39'57"N, 80°14'12"W  
-- **Habitat Type:** Pine flatwoods
-- **Cameras:** 5
 
 ## Conservation Context
 
@@ -152,7 +141,7 @@ Southeastern Naturalist 24(2):200–222. https://doi.org/10.1656/058.024.0212
 
 ## License
 
-This code is provided for research and educational purposes. Please cite the original publication when using or adapting this analysis pipeline.
+This code is released under the MIT License; see the LICENSE file for details. You are free to use, modify, and distribute it, including for commercial purposes, provided the copyright and license notices are preserved. If you use or adapt this analysis, please also cite the original publication (see How to Cite above).
 
 ## Acknowledgments
 
@@ -161,5 +150,5 @@ I would like to thank my co-authors, Dr. Evelyn Frazier, Jessica Huffman, Laura 
 ---
 
 **Repository maintained by:** Jessene Aquino-Thomas  
-**Last updated:** April 23, 2026  
+**Last updated:** July 3, 2026  
 **R Script version:** 2.0 (Cleaned and organized)
