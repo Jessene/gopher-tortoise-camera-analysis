@@ -16,10 +16,10 @@ Huffman, J., J. Aquino-Thomas, L. De Souza, J. Unger, and E. Frazier. 2025. Vert
 
 This study used motion-triggered cameras to document vertebrate species using Gopher Tortoise (*Gopherus polyphemus*) burrows across southeastern Florida. Camera traps were deployed at active adult burrows for 18 months across 4 study locations representing 3 land-use cover types at 3 sites:
 
-- **FAUP mowed grass** - Florida Atlantic University Preserve (5 cameras)
-- **FAUP scrub** - Florida Atlantic University Preserve (5 cameras)  
-- **JDSP scrub** - Jonathan Dickinson State Park (9 cameras)
-- **PJP pine flatwoods** - Pine Jog Preserve (5 cameras)
+- **FAU/Grass** - Florida Atlantic University Preserve (5 cameras)
+- **FAU/Scrub** - Florida Atlantic University Preserve (5 cameras)  
+- **JDSP/Scrub** - Jonathan Dickinson State Park (9 cameras)
+- **PJP/Pine** - Pine Jog Preserve (5 cameras)
 
 ### Key Findings
 - **44 vertebrate species** observed at burrows (excluding Gopher Tortoises)
@@ -114,7 +114,7 @@ The published paper is **not open access**. To obtain a copy:
 - **Cameras:** 9
 
 ### Pine Jog Preserve (PJP)
-- **Coordinates:** 26°66'48"N, 80°14'12"W  
+- **Coordinates:** 26°39'57"N, 80°14'12"W  
 - **Habitat Type:** Pine flatwoods
 - **Cameras:** 5
 
