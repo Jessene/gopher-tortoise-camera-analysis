@@ -140,7 +140,7 @@ If you use this code in your research, please cite both the code and the origina
 ### Code Citation:
 ```
 Aquino-Thomas, J. (2025). Statistical Analysis Code: Gopher Tortoise Burrow Associates Camera Trap Study. 
-GitHub repository: https://github.com/yourusername/gopher-tortoise-analysis
+GitHub repository: https://github.com/Jessene/gopher-tortoise-camera-analysis
 ```
 
 ### Paper Citation:
